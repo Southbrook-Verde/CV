@@ -55,7 +55,7 @@ module.exports = {
     },
     fontFamily: {
       sacramento: 'Sacramento',
-      montserrat: 'montserrat',
+      montserrat: 'Montserrat',
       notoSansMoto: 'Noto Sans Mono',
     },
     fontWeight: {
