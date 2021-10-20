@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <title>Sorheim WD</title>
     <script src="postcss.config.js"></script>
+    <link rel="stylesheet" href="css/forms.css">
     <link rel="stylesheet" href="css/animations.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Courier+Prime&family=Montserrat&family=Noto+Sans+Mono:wght@200;300;400&family=Sacramento&display=swap" rel="stylesheet">
 </head>
-<body>
+<!----------------------------------------------------------------------------------------------------------------BODY------------------------------------------------------------------------------------------------------------------------------------------>
+<body class="overflow-x-hidden">
     <div class="area" >
         <ul class="circles">
                 <li></li>
@@ -25,48 +27,64 @@
                 <li></li>
         </ul>
 
-    <div class="container text-center font-bold pb-20 pt-72">
+    <div class="container text-center font-bold pb-20 pt-72 overflow-x-hidden ">
         
-        <h1 class="text-black-black font-courierPrime typingTitle mb-16 text-7xl  text-center self-center inline-block">jorgen.Sorheim</h1>
+        <h1 class="phoneS:text-3xl tablet:mb-7 phoneL:text-4xl tablet:text-5xl text-black-black font-courierPrime typingTitle mb-16 text-7xl inline-block z-10">jorgen.Sorheim</h1>
     </div>
     <div  class="mx-auto self-center text-center">
-        <h2 class="text-center font-notoSansMoto text-2xl inline-block font-semibold">&lt;h2&gt;A <span class="text-purple font-extra-bold">full</span><span class="text-blue-primary"> Stack</span> Developer&lt;/h2&gt;</h2>
+        <h2 class="phoneS:text-sm phoneL:text-base tablet:text-base text-center font-notoSansMoto mx-0 text-2xl inline-block font-semibold text-black-black">&lt;h2&gt;A <span class="text-purple font-extra-bold">full</span><span class="text-blue-primaryLight"> Stack</span> Developer&lt;/h2&gt;</h2>
     </div>
     <div class="py-96"></div>
     <div>
         <input type="image" src="images/arrowDown.png" class="inline-block w-7 h-7 bottom-14 absolute left-2/4 animate-bounce" onclick="smoothScroll(document.getElementById('div2'))"></input>
     </div>
 </div >    
-<div class="container self-center text-center max-w-full pb-48 pt-20 bg-blue-primaryLight" id="div2">
-    <img src="SVG/monitor.svg" class="fixed bg-fixed">
-        <div class="container max-w-4xl bg-black-black bg-opacity-70 self-center rounded-3xl shadow-2xl py-4 px-0 relative inline-block">
-            <div class="text-left align-middle mb-0.5">
-                <div class="w-3.5 h-3.5 bg-opacity-100 inline-block ml-5 mb-1 rounded-3xl transition duration-300 ease-in-out bg-red hover:bg-opacity-75 transform hover:-translate-y-0 hover:scale-100"></div>
-                <div class="w-3.5 h-3.5 bg-opacity-100 inline-block ml-1 mb-1 rounded-3xl transition duration-300 ease-in-out bg-yellow hover:bg-opacity-75 transform hover:-translate-y-0 hover:scale-105"></div>
-                <div class="w-3.5 h-3.5 bg-opacity-100 inline-block ml-1 mb-1 rounded-3xl transition duration-300 ease-in-out bg-green-button hover:bg-opacity-75 transform hover:-translate-y-0 hover:scale-105"></div>
-                <input id="searchBar" class="border border-none focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-dark focus:ring-opacity-50 focus:border-transparent w-10/12 bg-gray-lightest bg-opacity-80 h-6 inline-block align-top ml-3 bottom-1.5 relative min-w-0 rounded-xl px-2" type="text" placeholder="Search...">
-                </input>
-                <button id="btn" style = "display: none;" onclick="javascript:alert('Hello World!')"></button>
-                <button id="btn2" style = "display: none;" onclick="javascript:alert('Hello World!')"></button>
-                <button id="btn3" style = "display: none;" onclick="javascript:alert('Hello World!')"></button>
-                
+<!----------------------------------------------------------------------------------------------------------------LARGE CONTAINER------------------------------------------------------------------------------------------------------------------------------------------>
+    <div class="container max-w-full pb-48 pt-20 text-center bg-blue-primaryLight" id="div2">
+            <div style="background-image: url(images/macos.jpg); background-size: cover;" class=" laptop:rounded-4xl laptop:border-16 w-full pt-10 pb-4 max-w-laptop relative inline-block border-20 rounded-lg border-green-mac shadow-md">
+                <!------------------------------------------------------------------------------------------------SMALL CONTAINER------------------------------------------------------------------------------------------------------------------------------------------>
+                <div class="container max-w-4xl bg-white-base rounded-3xl shadow-2xl mb-20 pt-4 relative inline-block">
+                    <div class="text-left align-middle mb-0.5">
+                        <div class="w-3.5 h-3.5 inline-block ml-5 mb-1 rounded-3xl bg-opacity-80 transition duration-300 ease-in-out bg-red hover:bg-opacity-100 transform hover:-translate-y-0 hover:scale-100"></div>
+                        <div class="w-3.5 h-3.5 inline-block ml-1 mb-1 rounded-3xl bg-opacity-80 transition duration-300 ease-in-out bg-yellow hover:bg-opacity-100 transform hover:-translate-y-0 hover:scale-105"></div>
+                        <div class="w-3.5 h-3.5 inline-block ml-1 mb-1 rounded-3xl bg-opacity-80 transition duration-300 ease-in-out bg-green-button hover:bg-opacity-100 transform hover:-translate-y-0 hover:scale-105"></div>
+                        <input id="searchBar" class="border border-none focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-dark focus:ring-opacity-20 focus:border-transparent w-10/12 bg-gray-lightest bg-opacity-80 h-6 inline-block align-top ml-3 bottom-1.5 relative min-w-0 rounded-xl px-2" type="text" placeholder="Search...">
+                        </input>
+                        <button id="btn" style = "display: none;" onclick="javascript:alert('Hello World!')"></button>
+                        <button id="btn2" style = "display: none;" onclick="javascript:alert('Hello World!')"></button>
+                        <button id="btn3" style = "display: none;" onclick="javascript:alert('Hello World!')"></button>
+                    </div>
+                    <div class="max-w-full h-0.5 bg-gray opacity-50 mb-7"></div>
+                        <h2 class="text-4xl pt-0 pb-0 text-black-black mx-auto opacity-100 font-notoSansMoto text-center">Hello!</h2>
+                        <br>
+                        <div  class="px-12 py-10">
+                            <img class="align-middle rounded-full bg-white-base w-40 mx-auto inline-block mr-7" src="images/coding.png" alt="coding-img">
+                            <p id="p1" class="text-sm font-notoSansMoto text-left align-middle text-black-black opacity-100  max-w-md inline-block self-center">This is a test paragraph to see what it looks like. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dictum luctus ullamcorper. Etiam aliquet leo egestas fringilla luctus. Proin lacinia elementum eros, vitae gravida massa congue a. In hac habitasse platea dictumst. In hac habitasse platea dictumst. Quisque elementum tempus vestibulum. Proin ut tincidunt enim.</p>
+                        </div>
+                        <div class="px-12 py-10">
+                            <img class="w-40 mx-auto rounded-full bg-white-base inline-block align-middle mr-7" src="images/coding.png" alt="coding-img">
+                            <p id="p2" class="text-sm font-notoSansMoto text-left align-middle text-black-black opacity-100  max-w-md inline-block self-center">This is a test paragraph to see what it looks like. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dictum luctus ullamcorper. Etiam aliquet leo egestas fringilla luctus. Proin lacinia elementum eros, vitae gravida massa congue a. In hac habitasse platea dictumst. In hac habitasse platea dictumst. Quisque elementum tempus vestibulum. Proin ut tincidunt enim.</p>
+                        </div>
+                    </div>
+                <div class="grid grid-cols-4 w-56 mx-auto bg-white-base bg-opacity-80 rounded-xl px-1 py-1 min-w-max laptop:hidden">
+                    <button id="myBtn"  style="background-size: cover; background-color: transparent; background-image: url(images/messages.png);" type="image" src="images/messages.png" class="h-10 w-10 pt-0 transition duration-500 ease-out hover:opacity-100 transform hover:scale-150 inline-block align-top mx-auto" id="aboutMe"></button>
+                    <button id="myBtn2" style="background-size: cover; background-color: transparent; background-image: url(images/messages.png);" type="image" src="images/messages.png" class="h-10 w-10 pt-0 transition duration-500 ease-out hover:opacity-100 transform hover:scale-150 inline-block align-top mx-auto" id="skills"></button>
+                    <button id="myBtn3" style="background-size: cover; background-color: transparent; background-image: url(images/messages.png);" type="image" src="images/messages.png" class="h-10 w-10 pt-0 transition duration-500 ease-out hover:opacity-100 transform hover:scale-150 inline-block align-top mx-auto" id="workExp"></button>
+                    <button id="myBtn4" style="background-size: cover; background-color: transparent; background-image: url(images/messages.png);" type="image" src="images/messages.png" class="h-10 w-10 pt-0 transition duration-500 ease-out hover:opacity-100 transform hover:scale-150 inline-block align-top mx-auto" id="emailForm"></button>
+                </div>
+                    <div id="myModal" class="modal">
+
+                <div class="modal-content rounded-xl pt-1">
+                    <span class="close relative">&times;</span>
+                    <form action="page" class=" h-96">
+                        <input type="textBox" class="mt-40 bg-gray-light ml-4 w-60 focus-within:bg-opacity-20">
+                    </form>
+
+                    </div>
+                  
+                  </div>
             </div>
-            <div class="max-w-full h-0.5 bg-gray-dark opacity-50 mb-7"></div>
-                <h2 class="text-4xl pt-0 pb-0 text-white-base mx-auto opacity-100 font-notoSansMoto">Hello!</h2>
-                <br>
-                <div  class="px-12 py-10">
-                    <img class="align-middle rounded-full bg-white-base w-40 mx-auto inline-block mr-7" src="images/coding.png" alt="coding-img">
-                    <p id="p2" class="text-sm font-notoSansMoto text-left align-middle text-white-base opacity-100  max-w-lg inline-block self-center">This is a test paragraph to see what it looks like. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dictum luctus ullamcorper. Etiam aliquet leo egestas fringilla luctus. Proin lacinia elementum eros, vitae gravida massa congue a. In hac habitasse platea dictumst. In hac habitasse platea dictumst. Quisque elementum tempus vestibulum. Proin ut tincidunt enim.</p>
-                </div>
-                <div class="px-12 py-10">
-                    <img class="w-40 mx-auto rounded-full bg-white-base inline-block align-middle mr-7" src="images/coding.png" alt="coding-img">
-                    <p class="text-sm font-notoSansMoto text-left text-white-base opacity-100 max-w-lg inline-block self-center align-middle">This is a test paragraph to see what it looks like. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dictum luctus ullamcorper. Etiam aliquet leo egestas fringilla luctus. Proin lacinia elementum eros, vitae gravida massa congue a. In hac habitasse platea dictumst. In hac habitasse platea dictumst. Quisque elementum tempus vestibulum. Proin ut tincidunt enim.</p>
-                </div>
-            
-        </div>
-        <button class="container h-10 max-w-sm mt-16 pt-20 rounded-full transition duration-500 ease-in-out bg-blue-sky opacity-90 shadow-2xl hover:bg-blue-logo hover:opacity-100 transform hover:scale-110 block" id="emailForm">
-            <p class="relative align-middle bottom-14 pt-0.5 font-montserrat font-bold text-black-black text-2xl transform ease-in-out duration-200 hover:text-white-base">Contact me!</p>
-        </button>
+            <img src="SVG/monitorBase.svg" class=" w-96 block mx-auto -top-10 laptop:hidden">
     </div>
     <script>
         var input = document.getElementById("searchBar");
@@ -87,6 +105,7 @@
         });
         </script>
     <script src="js/main.js"></script>
+    <script src="js/inputForm.js"></script>
     
 </body>
 </html>

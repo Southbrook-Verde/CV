@@ -17,21 +17,48 @@ module.exports = {
      '-10': '-10',
     },
     screens: {
-      'sm': '640px',
-      // => @media (min-width: 640px) { ... }
+      'desktop': {'max': '1535px'},
+      // => @media (max-width: 1535px) { ... }
 
-      'md': '768px',
-      // => @media (min-width: 768px) { ... }
+      'laptopL': {'max': '1279px'},
+      // => @media (max-width: 1279px) { ... }
 
-      'lg': '1024px',
-      // => @media (min-width: 1024px) { ... }
+      'laptop': {'max': '1023px'},
+      // => @media (max-width: 1023px) { ... }
 
-      'xl': '1280px',
-      // => @media (min-width: 1280px) { ... }
+      'tablet': {'max': '767px'},
+      // => @media (max-width: 767px) { ... }
 
-      '2xl': '1536px',
-      // => @media (min-width: 1536px) { ... }
+      'phoneL': {'max': '460px'},
+      // => @media (max-width: 639px) { ... }
+      'phoneS': {'max': '375px'},
+      // => @media (max-width: 639px) { ... }
     },
+    maxWidth: {
+      'xs': '20rem',
+      'sm': '24rem',
+      'md': '28rem',
+      'lg': '32rem',
+      'xl': '36rem',
+      '2xl': '42rem',
+      '3xl': '48rem',
+      '4xl': '56rem',
+      '5xl': '64rem',
+      '6xl': '72rem',
+      '7xl': '80rem',
+      '8xl': '88rem',
+      '1/4': '25%',
+      '1/2': '50%',
+      '3/4': '75%',
+      '4/4': '100%',
+      'desktop':  '1535px',
+      'laptopL':  '1279px',
+      'laptop':   '1023px',
+      'tablet':   '767px',
+      'phoneL':   '460px',
+      'phoneS':   '375px',
+    },
+
     colors: {
       gray: {
         darkest: '#1f2d3d',
@@ -51,6 +78,7 @@ module.exports = {
         grass: '#0A9419',
         forest: '#286B2F',
         button: '#1EBF1B',
+        mac: '#B5D2CE',
       },
       white: {
         base: '#FFFFFF',
@@ -69,8 +97,32 @@ module.exports = {
         lighter: '#8E05C2',
         darker:  '#3E065F',
       },
-
-
+    },
+    borderWidth: {
+      DEFAULT: '1px',
+      '0': '0',
+      '2': '2px',
+      '3': '3px',
+      '4': '4px',
+      '6': '6px',
+      '8': '8px',
+      '12': '12px',
+      '16': '16px',
+      '20': '20px',
+      '32': '32px',
+      '40': '40px',
+    },
+    borderRadius: {
+      'none': '0',
+     'sm': '0.125rem',
+     DEFAULT: '0.25rem',
+     'md': '0.375rem',
+     'lg': '0.5rem',
+     'full': '9999px',
+     'xl': '1rem',
+     '2xl': '1.5rem',
+     '3xl': '2rem',
+     '4xl': '3rem',
     },
     fontFamily: {
       sacramento: 'Sacramento',
