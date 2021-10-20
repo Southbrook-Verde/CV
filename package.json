@@ -2,6 +2,7 @@
   "dependencies": {
     "animejs": "^3.2.1",
     "autoprefixer": "^10.3.7",
+    "node-sass": "^6.0.1",
     "postcss": "^8.3.9",
     "tailwindcss": "^2.2.17"
   },

@@ -2,6 +2,20 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    zIndex: {
+      '0': 0,
+     '10': 10,
+     '20': 20,
+     '30': 30,
+     '40': 40,
+     '50': 50,
+     '25': 25,
+     '50': 50,
+     '75': 75,
+     '100': 100,
+     'auto': 'auto',
+     '-10': '-10',
+    },
     screens: {
       'sm': '640px',
       // => @media (min-width: 640px) { ... }
@@ -49,7 +63,12 @@ module.exports = {
       },
       yellow: {
         DEFAULT: '#FFD500',
-      }
+      },
+      purple: {
+        DEFAULT: '#700B97',
+        lighter: '#8E05C2',
+        darker:  '#3E065F',
+      },
 
 
     },
@@ -57,6 +76,7 @@ module.exports = {
       sacramento: 'Sacramento',
       montserrat: 'Montserrat',
       notoSansMoto: 'Noto Sans Mono',
+      courierPrime: 'Courier Prime',
     },
     fontWeight: {
       hairline: 100,
