@@ -14,7 +14,7 @@ body{
 .context {
     width: 100%;
     position: absolute;
-    top:50vh;
+    top: 450px;
     
 }
 
@@ -29,17 +29,9 @@ body{
     background: #eeeeeed8;  
     background: -webkit-linear-gradient(to left, #1e28e4, #0f17a3);  
     width: 100%;
-    height:100vh;
+    height: 100vh;
+    
 }
-@media (max-width: 428px) {
-  .area{
-    background: #eeeeeed8;  
-    background: -webkit-linear-gradient(to left, #1e28e4, #0f17a3);  
-    width: 100%;
-    height:60vh;
-}
-} 
-      
 .circles{
     position: absolute;
     top: 0;
