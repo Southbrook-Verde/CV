@@ -21230,7 +21230,7 @@ video {
   content: none;
 }
 
-@media (min-width: 375px) and (max-width: 459px) {
+@media (min-width: 375px) {
   .phoneS\:container {
     width: 100%;
     margin-right: auto;
@@ -41696,7 +41696,7 @@ video {
   }
 }
 
-@media (min-width: 460px) and (max-width: 766px) {
+@media (min-width: 460px) {
   .phoneL\:container {
     width: 100%;
     margin-right: auto;
@@ -62162,7 +62162,7 @@ video {
   }
 }
 
-@media (min-width: 767px) and (max-width: 1022px) {
+@media (min-width: 767px) {
   .tablet\:container {
     width: 100%;
     margin-right: auto;

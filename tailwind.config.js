@@ -17,11 +17,11 @@ module.exports = {
      '-10': '-10',
     },
     screens: {
-      'phoneS': {'min': '375px', 'max': '459px'},
+      'phoneS': {'min': '375px'},
       // => @media (min-width: 639px) { ... }
-      'phoneL': {'min': '460px', 'max': '766px'},
+      'phoneL': {'min': '460px'},
       // => @media (min-width: 639px) { ... }
-      'tablet': {'min': '767px', 'max': '1022px'},
+      'tablet': {'min': '767px'},
       // => @media (min-width: 767px) { ... }
       'laptop': {'min': '1023px'},
       // => @media (min-width: 1023px) { ... }
