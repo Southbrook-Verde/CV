@@ -23,9 +23,9 @@ module.exports = {
       // => @media (min-width: 639px) { ... }
       'tablet': {'min': '767px', 'max': '1022px'},
       // => @media (min-width: 767px) { ... }
-      'laptop': {'min': '1023px', 'max': '1278px'},
+      'laptop': {'min': '1023px'},
       // => @media (min-width: 1023px) { ... }
-      'laptopL': {'min': '1279px', 'max': '1534px'},
+      'laptopL': {'min': '1279px'},
       // => @media (min-width: 1279px) { ... }
       'desktop': {'min': '1535px'},
       // => @media (min-width: 1535px) { ... }

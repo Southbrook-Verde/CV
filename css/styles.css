@@ -82628,7 +82628,7 @@ video {
   }
 }
 
-@media (min-width: 1023px) and (max-width: 1278px) {
+@media (min-width: 1023px) {
   .laptop\:container {
     width: 100%;
     margin-right: auto;
@@ -103094,7 +103094,7 @@ video {
   }
 }
 
-@media (min-width: 1279px) and (max-width: 1534px) {
+@media (min-width: 1279px) {
   .laptopL\:container {
     width: 100%;
     margin-right: auto;
