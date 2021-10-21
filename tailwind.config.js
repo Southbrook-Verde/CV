@@ -17,22 +17,18 @@ module.exports = {
      '-10': '-10',
     },
     screens: {
-      'desktop': {'max': '1535px'},
-      // => @media (max-width: 1535px) { ... }
-
-      'laptopL': {'max': '1279px'},
-      // => @media (max-width: 1279px) { ... }
-
-      'laptop': {'max': '1023px'},
-      // => @media (max-width: 1023px) { ... }
-
-      'tablet': {'max': '767px'},
-      // => @media (max-width: 767px) { ... }
-
-      'phoneL': {'max': '460px'},
-      // => @media (max-width: 639px) { ... }
-      'phoneS': {'max': '375px'},
-      // => @media (max-width: 639px) { ... }
+      'phoneS': {'min': '375px', 'max': '459px'},
+      // => @media (min-width: 639px) { ... }
+      'phoneL': {'min': '460px', 'max': '766px'},
+      // => @media (min-width: 639px) { ... }
+      'tablet': {'min': '767px', 'max': '1022px'},
+      // => @media (min-width: 767px) { ... }
+      'laptop': {'min': '1023px', 'max': '1278px'},
+      // => @media (min-width: 1023px) { ... }
+      'laptopL': {'min': '1279px', 'max': '1534px'},
+      // => @media (min-width: 1279px) { ... }
+      'desktop': {'min': '1535px'},
+      // => @media (min-width: 1535px) { ... }
     },
     maxWidth: {
       'xs': '20rem',
@@ -51,12 +47,12 @@ module.exports = {
       '1/2': '50%',
       '3/4': '75%',
       '4/4': '100%',
-      'desktop':  '1535px',
-      'laptopL':  '1279px',
-      'laptop':   '1023px',
-      'tablet':   '767px',
-      'phoneL':   '460px',
       'phoneS':   '375px',
+      'phoneL':   '460px',
+      'tablet':   '767px',
+      'laptop':   '1023px',
+      'laptopL':  '1279px',
+      'desktop':  '1535px',
     },
     maxHeight: {
       'xs': '20rem',
