@@ -6692,6 +6692,10 @@ select {
   max-height: 88rem;
 }
 
+.max-h-xxl {
+  max-height: 120rem;
+}
+
 .max-h-1\/4 {
   max-height: 25%;
 }
@@ -34336,6 +34340,10 @@ select {
     max-height: 88rem;
   }
 
+  .phoneS\:max-h-xxl {
+    max-height: 120rem;
+  }
+
   .phoneS\:max-h-1\/4 {
     max-height: 25%;
   }
@@ -61792,6 +61800,10 @@ select {
 
   .phoneL\:max-h-8xl {
     max-height: 88rem;
+  }
+
+  .phoneL\:max-h-xxl {
+    max-height: 120rem;
   }
 
   .phoneL\:max-h-1\/4 {
@@ -89252,6 +89264,10 @@ select {
     max-height: 88rem;
   }
 
+  .tablet\:max-h-xxl {
+    max-height: 120rem;
+  }
+
   .tablet\:max-h-1\/4 {
     max-height: 25%;
   }
@@ -116708,6 +116724,10 @@ select {
 
   .laptop\:max-h-8xl {
     max-height: 88rem;
+  }
+
+  .laptop\:max-h-xxl {
+    max-height: 120rem;
   }
 
   .laptop\:max-h-1\/4 {
@@ -144168,6 +144188,10 @@ select {
     max-height: 88rem;
   }
 
+  .laptopL\:max-h-xxl {
+    max-height: 120rem;
+  }
+
   .laptopL\:max-h-1\/4 {
     max-height: 25%;
   }
@@ -171624,6 +171648,10 @@ select {
 
   .desktop\:max-h-8xl {
     max-height: 88rem;
+  }
+
+  .desktop\:max-h-xxl {
+    max-height: 120rem;
   }
 
   .desktop\:max-h-1\/4 {
