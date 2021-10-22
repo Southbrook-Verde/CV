@@ -5,13 +5,8 @@ smoothScroll = function() {
     element.scrollIntoView({behavior: "smooth"});
 }
 
-function aboutMe() {
-    var screen = document.getElementById("screen");
-    var screenGrid = document.getElementById("screenGrid");
+function aboutMe(screen) {
+    var screen = document.getElementById("screenContainer3");
     var classes = screen.classList;
-    var gridClasses = screenGrid.classList;
-    classes.add("text-left", "pl-2");
-    while (document.getElementById("screen").classList("text-left", "ml-5") === true) {
-        gridClasses.add("grid-col-2", "grid")
-    }
+    classes.toggle("laptop:grid");
 }

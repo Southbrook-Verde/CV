@@ -1,6 +1,6 @@
 module.exports = {
   purge: [],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'media', // or 'media' or 'class'
   theme: {
     zIndex: {
       '0': 0,
@@ -94,6 +94,8 @@ module.exports = {
         sky: '#75E0EE',
         logo: '#2DD4EB',
         font: '#239A9E',
+        code: '#053742',
+        codeLight: '#055052',
       },
       green: {
         grass: '#0A9419',
@@ -109,6 +111,7 @@ module.exports = {
       },
       red: {
         DEFAULT: '#c21414',
+        playful: '#CD113B',
       },
       yellow: {
         DEFAULT: '#FFD500',
@@ -116,8 +119,10 @@ module.exports = {
       purple: {
         DEFAULT: '#700B97',
         lighter: '#8E05C2',
-        darker:  '#3E065F',
+        darkest:  '#3E065F',
+        darker: '#52006A',
       },
+      orange: '#FF7600',
     },
     borderWidth: {
       DEFAULT: '1px',
@@ -150,6 +155,8 @@ module.exports = {
       montserrat: 'Montserrat',
       notoSansMoto: 'Noto Sans Mono',
       courierPrime: 'Courier Prime',
+      yesevaOne: 'Yeseva One',
+      sourceSans: 'Source Sans Pro',
     },
     fontWeight: {
       hairline: 100,
@@ -171,5 +178,8 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+    // ...
+  ],
 }
